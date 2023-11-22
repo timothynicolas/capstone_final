@@ -1,10 +1,14 @@
+import logo from '../media/favicon5.png';
+
 function Navbar(){
     return(
         <div>
             <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="home-updated.html">
-        <img src="../media/favicon5.png" alt="medlogo" style="height: 50px; width: 50px"/>
+        
+        <img src={logo} alt="medlogo" style={{ height: "50px", width: "50px",  }} />
+
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
