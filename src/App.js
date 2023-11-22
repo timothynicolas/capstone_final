@@ -1,7 +1,7 @@
 // PACKAGES
 
 import React from 'react';
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 // PAGES
 import Home from './pages/Home';
