@@ -13,6 +13,8 @@ import testimonial1 from "../media/testimonial01.png";
 import testimonial3 from "../media/testimonial03.png";
 import testimonial4 from "../media/testimonial04.png";
 
+document.title = "Peekabook | Home";
+
 function Home(){
     return(
         <div>

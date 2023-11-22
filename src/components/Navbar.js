@@ -22,10 +22,10 @@ function Navbar(){
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <Link class="nav-link green-text" to="/home">Home</Link>
+            <Link class="nav-link text-white" to="/home">Home</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link text-white" to="about.html">About</Link>
+            <Link class="nav-link text-white" to="/about">About</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link text-white" to="library.html">Library</Link>

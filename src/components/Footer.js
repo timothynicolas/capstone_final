@@ -76,7 +76,7 @@ function Footer(){
         
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
 
-        <p class="text-white">© 2023 Website, Inc. All rights reserved.</p>
+        <p class="text-white">© 2023 Peekabook, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook text-white" style={{fontSize: "1.5em"}}></i></a></li>
           <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram text-white" style={{fontSize: "1.5em"}}></i></a></li>
