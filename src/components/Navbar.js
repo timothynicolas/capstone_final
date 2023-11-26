@@ -25,10 +25,13 @@ function Navbar(){
             <Link class="nav-link text-white" to="/home">Home</Link>
           </li>
           <li class="nav-item">
+            <Link class="nav-link text-white" to="/profile">Profile</Link>
+          </li>
+          <li class="nav-item">
             <Link class="nav-link text-white" to="/about">About</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link text-white" to="library.html">Library</Link>
+            <Link class="nav-link text-white" to="/library">Library</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link text-white " to="/cart">Cart</Link>
@@ -43,7 +46,7 @@ function Navbar(){
          
 
           
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
