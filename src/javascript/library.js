@@ -1,8 +1,10 @@
-//const url = 'https://timothynicolas.github.io/mini-project-2/javascript/library-api.js';
+const url = 'https://timothynicolas.github.io/mini-project-2/javascript/library-api.js';
 
-const url = 'http://127.0.0.1:5500/capstone_final/src/javascript/library-api.js';
+//const url = 'http://127.0.0.1:5501/capstone_final/src/javascript/library-api.js';
 
-http://localhost:3000/
+//const url = 'library-api.js';
+
+
 
 
 fetch(url)
@@ -32,7 +34,7 @@ fetch(url)
         
             <!-- Modal -->
 
-            <div class="modal fade" id="m${item.id}" tabindex="-1" aria-labelledby="m${item.id}Label" aria-hidden="true">
+            <div class="modal fade" id="m${item.id}" tabindex="-1" aria-labelledby="m${item.id}Label" aria-hidden="true" data-bs-backdrop="static">
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">

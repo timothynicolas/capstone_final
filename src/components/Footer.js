@@ -23,7 +23,7 @@ function Footer(){
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Investor Relations</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Only on Peekabook</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Only on Pickabook</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Account</a></li>
           </ul>
         </div>
@@ -76,7 +76,7 @@ function Footer(){
         
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
 
-        <p class="text-white">© 2023 Peekabook, Inc. All rights reserved.</p>
+        <p class="text-white">© 2023 Pickabook, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook text-white" style={{fontSize: "1.5em"}}></i></a></li>
           <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram text-white" style={{fontSize: "1.5em"}}></i></a></li>

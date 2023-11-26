@@ -120,4 +120,10 @@ body{
 
 .book-outline {
     border: 2px solid #000; 
-  }
+}
+
+.modal-backdrop {
+    /* Your styling for the backdrop */
+    /* For example, adjust the opacity or color */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
