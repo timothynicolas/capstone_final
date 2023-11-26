@@ -54,7 +54,7 @@ fetch(url)
                         </div>
 
                         <div class="col-6 d-flex flex-column justify-content-between">
-                            <p id="desc${item.id}" class="my-3">${item.bookdescription}</p>
+                            <p id="desc${item.id}" class="my-3 text-black">${item.bookdescription}</p>
                             <p class="text-black text-left h3">&#8369; ${item.price}</p>
                         </div>
                     </div>

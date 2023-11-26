@@ -9,7 +9,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
 import Library from './pages/Library';
-import Mema from './pages/Mema';
+import Profile from './pages/Profile';
+
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/cart" element={<Cart/>}/> 
-          <Route path="/library" element={<Library/>}/>  
-          <Route path="/mema" element={<Mema/>}/>                 
+          <Route path="/library" element={<Library/>}/>
+          <Route path="/profile" element={<Profile/>}/>    
+                           
         </Routes>
       </BrowserRouter> 
     </div>
