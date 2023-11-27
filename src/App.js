@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Cart from './pages/Cart';
 import Library from './pages/Library';
 import Profile from './pages/Profile';
+import Login from './pages/Login';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <div>
       <BrowserRouter>                
         <Routes>
+          <Route path="/" element={<Login/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>

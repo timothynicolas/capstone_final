@@ -40,7 +40,7 @@ function Navbar(){
             <Link class="nav-link text-white" to="/profile">Profile</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" to="../index.html">Log Out</Link>
+            <Link class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Log Out</Link>
           </li>
 
          
@@ -58,10 +58,10 @@ function Navbar(){
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                  <Link to="../index.html"><button type="button" class="btn btn-success signup-btn" data-bs-dismiss="modal" onclick="
+                  <Link to="/"><button type="button" class="btn btn-success signup-btn" data-bs-dismiss="modal" onclick="
                     localStorage.clear();
                     sessionStorage.clear();
-                    ">Log Out</button></Link>
+                    " >Log Out</button></Link>
                 </div>
               </div>
             </div>
