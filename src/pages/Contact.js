@@ -12,7 +12,7 @@ function Contact(){
 
     let submitConcern = () => {
      //console.log(email);
-     setEmail("");
+        setEmail("");
         setName("");
         setConcern("");
     }

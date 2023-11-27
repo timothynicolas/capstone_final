@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 //CSS
 
-
+import '../css/about.css';
 
 //MEDIA
 

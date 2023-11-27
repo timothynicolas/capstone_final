@@ -25,19 +25,19 @@ function Navbar(){
             <Link class="nav-link text-white" to="/home">Home</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link text-white" to="/profile">Profile</Link>
-          </li>
-          <li class="nav-item">
-            <Link class="nav-link text-white" to="/about">About</Link>
-          </li>
-          <li class="nav-item">
             <Link class="nav-link text-white" to="/library">Library</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link text-white " to="/cart">Cart</Link>
           </li>
           <li class="nav-item">
+            <Link class="nav-link text-white" to="/about">About</Link>
+          </li>
+          <li class="nav-item">
             <Link class="nav-link text-white" to="/contact">Contact Us</Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link text-white" to="/profile">Profile</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" to="../index.html">Log Out</Link>
