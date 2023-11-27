@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Cart(){
+  document.title = "Peekabook | Cart";
     return(
         <div>
             <Navbar/>

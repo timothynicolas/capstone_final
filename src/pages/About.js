@@ -5,17 +5,17 @@ import Footer from "../components/Footer";
 
 //CSS
 
-
+import '../css/about.css';
 
 //MEDIA
 
 import about_user from '../media/about-user.webp';
 
-document.title = "Peekabook | About Us";
+
 
 function About(){
 
-    
+    document.title = "Peekabook | About Us";
     return(
         <div>
 

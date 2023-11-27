@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 function Footer(){
+    const [email, setEmail] = useState("");
+
+    let submitEmail = () => {
+      setEmail("");
+    }
+
     return(
         <div>
             <div class="container mt-5">
@@ -47,8 +55,9 @@ function Footer(){
             <p class="text-white">Monthly digest of what's new and exciting from us.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address"/>
-              <button type="button" class="btn  signup-btn" data-bs-toggle="modal" data-bs-target="#newsletter" style={{border: "none"}}>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" value={email} onChange={(e)=> {setEmail(e.target.value)}} />
+
+              <button type="button" class="btn  signup-btn" data-bs-toggle="modal" data-bs-target="#newsletter" style={{border: "none"}} onClick={submitEmail}>
                 Subscribe
               </button>
 

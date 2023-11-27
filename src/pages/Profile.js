@@ -24,6 +24,8 @@ function Profile(){
                 <input className="form-control" placeholder="Last Name"></input><br/>
                 <label> Delivery Address:</label><br/>
                 <textarea className="form-control" placeholder="Delivery Address"></textarea><br/>
+
+                <button className="btn btn-success signup-btn w-100 mt-2 green-btn" type="button" >Save Changes</button>
                 
             </div>
             <Footer/>
