@@ -31,7 +31,7 @@ function Navbar(){
             <Link class="nav-link text-white " to="/cart">Cart</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link text-white" to="/about">About</Link>
+            <Link class="nav-link text-white" to="/about">About Us</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link text-white" to="/contact">Contact Us</Link>

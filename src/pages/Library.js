@@ -11,6 +11,7 @@ import '../javascript/library.js';
 import '../css/library.css';
 
 function Library(){
+    document.title = "Peekabook | Library";
     return(
         <div>
             <Navbar/>

@@ -16,8 +16,10 @@ function Contact(){
         setName("");
         setConcern("");
     }
+    document.title = "Peekabook | Contact Us";
 
     return(
+       
         <div>
             <Navbar/>
                 <div className="container col-10 mt-5 p-4 pt-0">

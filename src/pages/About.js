@@ -11,11 +11,11 @@ import '../css/about.css';
 
 import about_user from '../media/about-user.webp';
 
-document.title = "Peekabook | About Us";
+
 
 function About(){
 
-    
+    document.title = "Peekabook | About Us";
     return(
         <div>
 
